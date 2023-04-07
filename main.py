@@ -1,4 +1,5 @@
 import randomize
+import innings
 
 isBatting = True
 isOut = False
@@ -12,6 +13,6 @@ isBatting = randomize.choice(toss_win)
 
 if(isBatting == True):
     # First inning
-    pass
+    innings.first_batting(isBatting)
 else:
     pass
