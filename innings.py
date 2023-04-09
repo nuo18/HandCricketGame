@@ -30,8 +30,5 @@ def first_batting(isBatting):
     
     user_score = user_score+1
 
-
-
-
 def pause():
     time.sleep(1)
