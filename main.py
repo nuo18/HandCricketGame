@@ -15,4 +15,4 @@ if(isBatting == True):
     # First inning
     innings.first_batting(isBatting)
 else:
-    pass
+    innings.second_batting(isBatting) # Second inning

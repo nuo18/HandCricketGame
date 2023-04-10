@@ -65,3 +65,7 @@ def pause():
 
 def space():
     print("---------")
+
+
+def second_batting(isBatting):
+    pass # Implement later.  This function is just for the second innings.
