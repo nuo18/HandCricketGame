@@ -68,4 +68,17 @@ def space():
 
 
 def second_batting(isBatting):
-    pass # Implement later.  This function is just for the second innings.
+    comp_score = 0
+    comp_random = 0
+    user_cur = 0
+    print("Enter between 1 to 6.")
+    
+    while(not isBatting):
+        pause()
+        space()
+        print("Enter: ")
+        user_cur = int(input())
+        comp_random = random.randint(1,6)
+        pause()
+        if(user_cur == comp_random):
+            print("")
