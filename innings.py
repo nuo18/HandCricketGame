@@ -127,4 +127,3 @@ def second_batting(isBatting):
     space()
     space()
     print("Thanks for playing!")
-        
